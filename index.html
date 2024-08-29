@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body class="container">
+    <header class="light">
+        <h1>Welcome to My Blog</h1>
+        <button id="lightMode">☀️</button>
+    </header>
+    <div class="content light">
+        <section class="left">
+            <div id="circle">
+                <h1>My First Blog</h1>
+            </div>
+        </section>
+
+        <section class="right">
+            <div id="form">
+                <h2>What's on your mind</h2>
+                <form id="blogForm">
+                    <p>Username</p>
+                    <input type="text" id="username" required>
+                    <p>Title</p>
+                    <input type="text" id="title" required>
+                    <p>Content</p>
+                    <textarea id="content" required></textarea>
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+                <p id="error-message" class="error"></p>
+            </div>
+        </section>
+    </div>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/logic.js"></script>
+</body>
+</html>

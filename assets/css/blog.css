@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 5px solid rgb(103, 0, 172);
+    margin-bottom: 5px;
+}
+
+.username {
+    margin-bottom: 5px;
+    font-style: arial;
+    font-size: 95%;
+}
+
+.post {
+    border: 3px solid rgb(103, 0, 172);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.content {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    border-top: 5px solid rgb(103, 0, 172);
+    margin-top: 5px;
+    height: min-content;
+}
